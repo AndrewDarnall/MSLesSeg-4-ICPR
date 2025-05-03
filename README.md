@@ -26,5 +26,58 @@ You may find the **published paper [here](https://arxiv.org/abs/2410.07924)** an
 
 - Describe in detail, from the acquisition of the dataset, to the installation of the requirements how to run the code locally
 
+***After the summarized description***
+
+- You can find more details on how to apply the initial `preprocessing` the data [here](./data/README.md).
+- You can find a `terraform` script for the provisioning of a `cloud instance` to replicate the training and experiments performed in this project [here](./cloud_infrastructure/).
+
+### Environment Setup
+
+The code presented in the repo has the following `dependencies`
+
+| `Component` | `Version` |
+|-------------|-----------|
+| `conda`     | `25.1.1`  |
+| `Python`    | `3.11`    |
+| `pip`       | `25.1`    |
+
+
+To manually setup the `environment` for experiment `replication`:
+
+1) Download and install [`conda`](https://www.anaconda.com/docs/getting-started/miniconda/main)
+
+2) Create the `virtual environment` with `conda`
+
+```bash
+conda create --name mslesseg4icpr python=3.11
+```
+3) Download all the required modules `modules` (make sure you are in the root of the project `~/MSLesSeg-4-ICPR`)
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+4) Go into the `notebooks` directory & launch a `jupyter notebook` session
+
+```bash
+jupyter-notebook mslesseg-4-icpr.ipynb
+```
+
+5) Run the entire `notebook`
+
 ---
 
+# System Specks
+
+### Hardware
+
+- **CPU:** Intel i7-8700 (12) @ 4.600GHz  
+- **GPU:** NVIDIA GeForce RTX 4070 12GB  
+- **RAM:** 32G total 
+
+### Software
+
+- **NVIDIA-DRIVERS:** 550.54.14
+- **CUDA:** 12.4
+
+---

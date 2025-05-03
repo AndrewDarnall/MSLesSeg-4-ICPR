@@ -1,0 +1,8 @@
+*** Images created using Microsoft Copilot ***
+
+A modern, high-resolution digital illustration showing a human doctor (realistic but friendly-looking, in a white coat)
+discussing brain MRI scans with an AI doctor (futuristic, humanoid but approachable, glowing elements, transparent tablet in hand).
+Both are standing beside a large screen displaying colorful brain MRI slices with lesion highlights. Above them, include a clearly legible,
+professional title: 'MSLesSeg 4 ICPR' in clean, modern typography.
+The style should be high-quality, clean, and futuristic yet warm—evoking trust and innovation.
+Render in a sleek, diffusion-model aesthetic with soft lighting and rich detail.

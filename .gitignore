@@ -4,4 +4,4 @@
 /data/02-Tensor-Data/test
 /notebooks/*
 !/notebooks/*.ipynb
-!/noetbooks/README.md
+!/notebooks/README.md

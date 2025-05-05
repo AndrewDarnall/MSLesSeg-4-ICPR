@@ -24,9 +24,13 @@ You may find the **published paper [here](https://arxiv.org/abs/2410.07924)** an
 
 ## Setup & Replication
 
-- Describe in detail, from the acquisition of the dataset, to the installation of the requirements how to run the code locally
+To replicate the experiments you will need to:
 
-***After the summarized description***
+1) Acquire the `.zip` of the `MSLesSeg` dataset from the authors of the `challenge` @ [IP Lab](https://iplab.dmi.unict.it/people/)
+
+2) Extract the dataset into the `data` directory, specifically into the `/data/01-Pre-Processed-Data/` subdirectory
+
+3) Then apply the proper preprocessing `scripts`
 
 - You can find more details on how to apply the initial `preprocessing` the data [here](./data/README.md).
 - You can find a `terraform` script for the provisioning of a `cloud instance` to replicate the training and experiments performed in this project [here](./cloud_infrastructure/).

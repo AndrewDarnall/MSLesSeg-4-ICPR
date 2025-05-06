@@ -5,3 +5,4 @@
 /notebooks/*
 !/notebooks/*.ipynb
 !/notebooks/README.md
+!/notebooks/model_checkpoints

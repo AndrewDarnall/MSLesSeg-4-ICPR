@@ -2,6 +2,8 @@
 /data/01-Pre-Processed-Data/test
 /data/02-Tensor-Data/train
 /data/02-Tensor-Data/test
+/data/03-SegFormer-Tensor-Data/train
+/data/03-SegFormer-Tensor-Data/test
 /notebooks/*
 !/notebooks/*.ipynb
 !/notebooks/README.md

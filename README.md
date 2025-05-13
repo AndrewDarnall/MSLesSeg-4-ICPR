@@ -71,6 +71,12 @@ jupyter-notebook mslesseg-4-icpr.ipynb
 
 ---
 
+# Mixed Reality Application 4 Healthcare
+
+## TODO <-----------------
+
+- Showcase the ***SegFormer3D MoE*** model (perhaps quantized?) deployed on the ***edge device***, the **META Quest 3** in the setting for ***aiding the surgeon*** during surgery. 
+
 # System Specks
 
 ### Hardware

@@ -6,4 +6,6 @@ Training 4 --> lr = 0.00001, weight decay = 0.001, train batch size = 5, validat
 Training 5 --> lr = 0.00005, weight decay = 0.0005, train batch size = 5, validation batch size = 3, dice CE loss, CosineAnnealingLR, with T_max = 60 Schduler (Best Model)
 
 [SegFormer3DMoE]
-Training 1 --> 
+Training 1 --> FAILURE
+Training 2 --> lr = 0.00005, weight decay = 0.0005, train batch size = 5, validation batch size = 3, dice CE loss, CosineAnnealingWarmRestarts Schduler with T_0 = 10, T_mult = 2
+Training 3 --> 

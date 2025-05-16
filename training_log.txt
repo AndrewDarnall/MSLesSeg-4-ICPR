@@ -7,5 +7,8 @@ Training 5 --> lr = 0.00005, weight decay = 0.0005, train batch size = 5, valida
 
 [SegFormer3DMoE]
 Training 1 --> FAILURE
-Training 2 --> lr = 0.00005, weight decay = 0.0005, train batch size = 5, validation batch size = 3, dice CE loss, CosineAnnealingWarmRestarts Schduler with T_0 = 10, T_mult = 2
-Training 3 --> 
+Training 2 --> lr = 0.00005, weight decay = 0.0005, train batch size = 5, validation batch size = 3, dice CE loss, CosineAnnealingWarmRestarts Schduler with T_0 = 10, T_mult = 2 (Best Model)
+Training 3 --> lr = 0.00005, weight decay = 0.0005, train batch size = 5, validation batch size = 3, dice CE loss, CosineAnnealingWarmRestarts Schduler with T_0 = 10, T_mult = 2
+Training 4 --> lr = 0.00005, weight decay = 0.0005, train batch size = 5, validation batch size = 3, dice CE loss, CosineAnnealingWarmRestarts Schduler with T_0 = 10, T_mult = 2, aux loss weights from 1e-3 and 1e-4 to 1e-2 and 1e-3
+experts [4, 4, 6, 8] --> [2, 2, 4, 4], selected experts [2, 2, 3, 4] --> [1, 1, 2, 2] (Training stopped at 200-ish epochs)
+Training 5 --> updated: lr = 0.0003, weight decay = 0.01, CosineAnnealingWarmRestarts Scheduler with T_0 = 5, beta_2 = 0.95 (instead of 0.98)

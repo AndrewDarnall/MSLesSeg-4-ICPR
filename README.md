@@ -71,6 +71,13 @@ jupyter-notebook mslesseg-4-icpr.ipynb
 
 ---
 
+# Extended Reality Applications
+
+Since our main proposed model ***SegFormer3D*** has about 4.5M parameters and requires around 17 GFLOPs to perform inference, considering a hardware platform such as the ***META Quest 3*** which can perform up to 2.4 TFLOPs, we developed a simple PoC that shows how a surgeon, ***without compromising the sterility of the operating room*** can perform inference on a newly received ***MRI scan***, in this case ***Brain MRI*** and using the recognized hand gestures with the ***quest 3***, can visualize the inference performed on the MRI scan and better asses the treatment that the patient needs, thus saving precious time and bringing ever closer two of main pillars of our society, ***technology*** and ***healthcare***
+
+![Brain MRI VR Analysis](./assets/gifs/VR-Brain-MRI-Scan-Analysis.gif)
+
+
 # System Specks
 
 ### Hardware

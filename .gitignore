@@ -7,3 +7,4 @@
 /notebooks/*
 !/notebooks/*.ipynb
 !/notebooks/README.md
+.DS_Store

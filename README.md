@@ -16,11 +16,8 @@ You may find the **published paper [here](https://arxiv.org/abs/2410.07924)** an
 
 ## Our Solution
 
-- Mention my solution here
-
-## Results
-
-- Talk about the obtained results
+- After performing extensive tests with several architectures, such as U-Net, Trans-U-Net and SegFormer3D-based architectures, we found that not only do we obtain comparable results with the SegFormer3D models (compared to larger and more computationally-hungry models such as U-Net) but having less parameters (4.5M) there are practical applications in the medical industry for said model
+- Both SegFormer3D and SegFormer3DMoE obtained a *DiceScore* of ***60*** on the ***MSLesSeg Dataset***
 
 ## Setup & Replication
 

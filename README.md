@@ -77,6 +77,12 @@ Since our main proposed model ***SegFormer3D*** has about 4.5M parameters and re
 
 ![Brain MRI VR Analysis](./assets/gifs/VR-Brain-MRI-Scan-Analysis.gif)
 
+---
+
+![Brain MRI VR Analysis - Inference](./assets/gifs/VR-Brain-MRI-Inference-Analysis.gif)
+
+---
+
 
 # System Specks
 
